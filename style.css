@@ -14,7 +14,7 @@ nav {
   width: 100%;
   margin-left: 0%;
   margin-right: 0%;
-  background-color: #000;
+  background-color: #ddd;
   border: 5px solid #f00;
   height: 7vh;
 }
@@ -34,7 +34,7 @@ section#profile-bar-container {
   width: 100%;
   margin-left: 0%;
   margin-right: 0%;
-  background-color: #000;
+  background-color: #ddd;
   border: 5px solid #008000;
   height: 14vh;
 }
@@ -54,7 +54,7 @@ section#main-media-conatiner {
   width: 100%;
   margin-left: 0%;
   margin-right: 0%;
-  background-color: #000;
+  background-color: #ddd;
   border: 5px solid #00f;
   height: 79vh;
 }
@@ -75,7 +75,7 @@ section#main-media-conatiner section#side-profile-nav-conatiner {
   width: 25%;
   margin-left: 0%;
   margin-right: 0%;
-  background-color: #000;
+  background-color: #ddd;
   border: 2px solid #ff0;
 }
 section#main-media-conatiner section#side-profile-nav-conatiner:before,
@@ -95,7 +95,7 @@ section#main-media-conatiner section#media-conatiner {
   width: 74.25%;
   margin-left: 0%;
   margin-right: 0%;
-  background-color: #000;
+  background-color: #ddd;
   border: 2px solid #800080;
 }
 section#main-media-conatiner section#media-conatiner:before,
