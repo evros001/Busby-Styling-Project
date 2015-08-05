@@ -1,0 +1,108 @@
+* {
+  background: rgba(0,0,0,0.05);
+}
+body {
+  background-color: #030303;
+  height: 100%;
+  width: 100%;
+}
+nav {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: 0%;
+  background-color: #000;
+  border: 5px solid #f00;
+  height: 7vh;
+}
+nav:before,
+nav:after {
+  content: '';
+  display: table;
+}
+nav:after {
+  clear: both;
+}
+section#profile-bar-container {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: 0%;
+  background-color: #000;
+  border: 5px solid #008000;
+  height: 14vh;
+}
+section#profile-bar-container:before,
+section#profile-bar-container:after {
+  content: '';
+  display: table;
+}
+section#profile-bar-container:after {
+  clear: both;
+}
+section#main-media-conatiner {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: 0%;
+  background-color: #000;
+  border: 5px solid #00f;
+  height: 79vh;
+}
+section#main-media-conatiner:before,
+section#main-media-conatiner:after {
+  content: '';
+  display: table;
+}
+section#main-media-conatiner:after {
+  clear: both;
+}
+section#main-media-conatiner section#side-profile-nav-conatiner {
+  height: 100%;
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 25%;
+  margin-left: 0%;
+  margin-right: 0%;
+  background-color: #000;
+  border: 2px solid #ff0;
+}
+section#main-media-conatiner section#side-profile-nav-conatiner:before,
+section#main-media-conatiner section#side-profile-nav-conatiner:after {
+  content: '';
+  display: table;
+}
+section#main-media-conatiner section#side-profile-nav-conatiner:after {
+  clear: both;
+}
+section#main-media-conatiner section#media-conatiner {
+  height: 100%;
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 74.25%;
+  margin-left: 0%;
+  margin-right: 0%;
+  background-color: #000;
+  border: 2px solid #800080;
+}
+section#main-media-conatiner section#media-conatiner:before,
+section#main-media-conatiner section#media-conatiner:after {
+  content: '';
+  display: table;
+}
+section#main-media-conatiner section#media-conatiner:after {
+  clear: both;
+}
