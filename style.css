@@ -1,13 +1,16 @@
 * {
   background: rgba(0,0,0,0.05);
 }
+html {
+  background: #272727;
+}
 body {
   background-color: #000;
-  height: 100%;
   width: 100%;
   color: #9b9b9c;
+  font-family: 'Open Sans', sans-serif;
 }
-nav {
+.top-nav-container {
   *zoom: 1;
   float: left;
   clear: none;
@@ -16,16 +19,36 @@ nav {
   margin-left: 0%;
   margin-right: 0%;
   background-color: #000;
-  border: 5px solid #f00;
-  height: 114px;
+  width: 100%;
 }
-nav:before,
-nav:after {
+.top-nav-container:before,
+.top-nav-container:after {
   content: '';
   display: table;
 }
-nav:after {
+.top-nav-container:after {
   clear: both;
+}
+.top-nav-container img {
+  width: 12%;
+  float: left;
+}
+.top-nav-container #nav-links-container {
+  width: 30%;
+  float: right;
+  display: inline-block;
+}
+.top-nav-container #nav-links-container #links-container .nav-link {
+  display: inline-block;
+}
+.top-nav-container #nav-links-container #links-container .nav-link #settings-img {
+  width: 6%;
+}
+.top-nav-container #nav-links-container #social-links-contianer {
+  clear: right;
+}
+.top-nav-container #nav-links-container #social-links-contianer .social-link-img {
+  width: 6%;
 }
 section#profile-bar-container {
   *zoom: 1;
@@ -35,9 +58,9 @@ section#profile-bar-container {
   width: 100%;
   margin-left: 0%;
   margin-right: 0%;
-  background-color: #000;
-  border: 5px solid #008000;
-  height: 190px;
+  width: 100%;
+  background-color: #f0eeef;
+  color: #040404;
 }
 section#profile-bar-container:before,
 section#profile-bar-container:after {
@@ -45,6 +68,74 @@ section#profile-bar-container:after {
   display: table;
 }
 section#profile-bar-container:after {
+  clear: both;
+}
+section#profile-bar-container #profile-img {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 25%;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+section#profile-bar-container #profile-img:before,
+section#profile-bar-container #profile-img:after {
+  content: '';
+  display: table;
+}
+section#profile-bar-container #profile-img:after {
+  clear: both;
+}
+section#profile-bar-container #profile-info-container {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 25%;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+section#profile-bar-container #profile-info-container:before,
+section#profile-bar-container #profile-info-container:after {
+  content: '';
+  display: table;
+}
+section#profile-bar-container #profile-info-container:after {
+  clear: both;
+}
+section#profile-bar-container #profile-views-container {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 25%;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+section#profile-bar-container #profile-views-container:before,
+section#profile-bar-container #profile-views-container:after {
+  content: '';
+  display: table;
+}
+section#profile-bar-container #profile-views-container:after {
+  clear: both;
+}
+section#profile-bar-container #edit-profile-container {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 25%;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+section#profile-bar-container #edit-profile-container:before,
+section#profile-bar-container #edit-profile-container:after {
+  content: '';
+  display: table;
+}
+section#profile-bar-container #edit-profile-container:after {
   clear: both;
 }
 section#main-media-conatiner {
@@ -56,8 +147,6 @@ section#main-media-conatiner {
   margin-left: 0%;
   margin-right: 0%;
   background-color: #000;
-  border: 5px solid #00f;
-  height: 79vh;
 }
 section#main-media-conatiner:before,
 section#main-media-conatiner:after {
@@ -68,7 +157,6 @@ section#main-media-conatiner:after {
   clear: both;
 }
 section#main-media-conatiner section#side-profile-nav-conatiner {
-  height: 100%;
   *zoom: 1;
   float: left;
   clear: none;
@@ -77,7 +165,14 @@ section#main-media-conatiner section#side-profile-nav-conatiner {
   margin-left: 0%;
   margin-right: 0%;
   background-color: #1f1f1f;
-  border: 2px solid #ff0;
+}
+section#main-media-conatiner section#side-profile-nav-conatiner::before,
+section#main-media-conatiner section#side-profile-nav-conatiner::after {
+  display: table;
+  content: ' ';
+}
+section#main-media-conatiner section#side-profile-nav-conatiner::after {
+  clear: both;
 }
 section#main-media-conatiner section#side-profile-nav-conatiner:before,
 section#main-media-conatiner section#side-profile-nav-conatiner:after {
@@ -87,8 +182,85 @@ section#main-media-conatiner section#side-profile-nav-conatiner:after {
 section#main-media-conatiner section#side-profile-nav-conatiner:after {
   clear: both;
 }
+section#main-media-conatiner section#side-profile-nav-conatiner #profile-status-container {
+  width: 100%;
+}
+section#main-media-conatiner section#side-profile-nav-conatiner #profile-status-container #profile-completedness-text {
+  width: 100%;
+}
+section#main-media-conatiner section#side-profile-nav-conatiner #profile-status-container #profile-completedness-container {
+  width: 100%;
+}
+section#main-media-conatiner section#side-profile-nav-conatiner #profile-status-container #profile-completedness-container img {
+  width: 100%;
+}
+section#main-media-conatiner section#side-profile-nav-conatiner #profile-status-container #import-contacts-container {
+  width: 100%;
+}
+section#main-media-conatiner section#side-profile-nav-conatiner #profile-status-container #import-contacts-container div {
+  display: inline-block;
+  width: 100%;
+}
+section#main-media-conatiner section#side-profile-nav-conatiner #profile-status-container #import-contacts-container div img {
+  display: inline-block;
+  width: 17%;
+}
+section#main-media-conatiner section#side-profile-nav-conatiner #profile-status-container #import-contacts-container div span {
+  display: inline-block;
+  color: #67ccd8;
+}
+section#main-media-conatiner section#side-profile-nav-conatiner #bio-container {
+  background-color: #2c2b2b;
+}
+section#main-media-conatiner section#side-profile-nav-conatiner #bio-container #bio-title {
+  color: #fff;
+}
+section#main-media-conatiner section#side-profile-nav-conatiner #bio-container #bio-link a {
+  color: #67ccd8;
+  text-decoration: none;
+}
+section#main-media-conatiner section#side-profile-nav-conatiner #connections-contianer {
+  width: 100%;
+}
+section#main-media-conatiner section#side-profile-nav-conatiner #connections-contianer h3 {
+  color: #fff;
+}
+section#main-media-conatiner section#side-profile-nav-conatiner #connections-contianer h3 a {
+  color: #67ccd8;
+  text-decoration: none;
+  margin-left: 3.4%;
+  font-size: 80%;
+}
+section#main-media-conatiner section#side-profile-nav-conatiner #connections-contianer #connections-img-container {
+  width: 100%;
+  hieght: 81%;
+}
+section#main-media-conatiner section#side-profile-nav-conatiner #connections-contianer #connections-img-container img {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 33.33333333333333%;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+section#main-media-conatiner section#side-profile-nav-conatiner #connections-contianer #connections-img-container img:before,
+section#main-media-conatiner section#side-profile-nav-conatiner #connections-contianer #connections-img-container img:after {
+  content: '';
+  display: table;
+}
+section#main-media-conatiner section#side-profile-nav-conatiner #connections-contianer #connections-img-container img:after {
+  clear: both;
+}
+section#main-media-conatiner section#side-profile-nav-conatiner #contacts-container {
+  width: 100%;
+}
+section#main-media-conatiner section#side-profile-nav-conatiner #contacts-container #contacts-title {
+  margin-top: 20%;
+  color: #fff;
+  width: 100%;
+}
 section#main-media-conatiner section#media-conatiner {
-  height: 100%;
   *zoom: 1;
   float: left;
   clear: none;
@@ -97,7 +269,14 @@ section#main-media-conatiner section#media-conatiner {
   margin-left: 0%;
   margin-right: 0%;
   background-color: #000;
-  border: 2px solid #800080;
+}
+section#main-media-conatiner section#media-conatiner::before,
+section#main-media-conatiner section#media-conatiner::after {
+  display: table;
+  content: ' ';
+}
+section#main-media-conatiner section#media-conatiner::after {
+  clear: both;
 }
 section#main-media-conatiner section#media-conatiner:before,
 section#main-media-conatiner section#media-conatiner:after {
@@ -106,4 +285,68 @@ section#main-media-conatiner section#media-conatiner:after {
 }
 section#main-media-conatiner section#media-conatiner:after {
   clear: both;
+}
+section#main-media-conatiner section#media-conatiner #media-title-container {
+  width: 100%;
+  display: inline-block;
+}
+section#main-media-conatiner section#media-conatiner #media-title-container #media-title {
+  color: #fff;
+  text-align: center;
+}
+section#main-media-conatiner section#media-conatiner #media-title-container img {
+  width: 3.4%;
+  float: right;
+}
+section#main-media-conatiner section#media-conatiner #media-featured-work-container {
+  width: 100%;
+  text-align: center;
+}
+section#main-media-conatiner section#media-conatiner #media-featured-work-container #media-featured-image-container {
+  width: 100%;
+}
+section#main-media-conatiner section#media-conatiner #media-featured-work-container #media-featured-image-container img {
+  width: 100%;
+}
+section#main-media-conatiner section#media-conatiner #media-items-conatiner {
+  width: 100%;
+}
+section#main-media-conatiner section#media-conatiner #media-items-conatiner::before,
+section#main-media-conatiner section#media-conatiner #media-items-conatiner::after {
+  display: table;
+  content: ' ';
+}
+section#main-media-conatiner section#media-conatiner #media-items-conatiner::after {
+  clear: both;
+}
+section#main-media-conatiner section#media-conatiner #media-items-conatiner .MI-container {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 33.33333333333333%;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+section#main-media-conatiner section#media-conatiner #media-items-conatiner .MI-container:before,
+section#main-media-conatiner section#media-conatiner #media-items-conatiner .MI-container:after {
+  content: '';
+  display: table;
+}
+section#main-media-conatiner section#media-conatiner #media-items-conatiner .MI-container:after {
+  clear: both;
+}
+section#main-media-conatiner section#media-conatiner #media-items-conatiner .MI-container #MI-img-1 {
+  background-image: url("http://s27.postimg.org/fcnoeuhrm/featured_work_sub_zerodarkthirty.jpg");
+  padding-top: 52.7%;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+}
+section#main-media-conatiner section#media-conatiner .showall-container {
+  width: 100%;
+  text-align: center;
+}
+section#main-media-conatiner section#media-conatiner .showall-container #showall-title {
+  color: #67ccd8;
 }
