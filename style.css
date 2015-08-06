@@ -2,9 +2,10 @@
   background: rgba(0,0,0,0.05);
 }
 body {
-  background-color: #030303;
+  background-color: #000;
   height: 100%;
   width: 100%;
+  color: #9b9b9c;
 }
 nav {
   *zoom: 1;
@@ -14,9 +15,9 @@ nav {
   width: 100%;
   margin-left: 0%;
   margin-right: 0%;
-  background-color: #ddd;
+  background-color: #000;
   border: 5px solid #f00;
-  height: 7vh;
+  height: 114px;
 }
 nav:before,
 nav:after {
@@ -34,9 +35,9 @@ section#profile-bar-container {
   width: 100%;
   margin-left: 0%;
   margin-right: 0%;
-  background-color: #ddd;
+  background-color: #000;
   border: 5px solid #008000;
-  height: 14vh;
+  height: 190px;
 }
 section#profile-bar-container:before,
 section#profile-bar-container:after {
@@ -54,7 +55,7 @@ section#main-media-conatiner {
   width: 100%;
   margin-left: 0%;
   margin-right: 0%;
-  background-color: #ddd;
+  background-color: #000;
   border: 5px solid #00f;
   height: 79vh;
 }
@@ -75,7 +76,7 @@ section#main-media-conatiner section#side-profile-nav-conatiner {
   width: 25%;
   margin-left: 0%;
   margin-right: 0%;
-  background-color: #ddd;
+  background-color: #1f1f1f;
   border: 2px solid #ff0;
 }
 section#main-media-conatiner section#side-profile-nav-conatiner:before,
@@ -95,7 +96,7 @@ section#main-media-conatiner section#media-conatiner {
   width: 74.25%;
   margin-left: 0%;
   margin-right: 0%;
-  background-color: #ddd;
+  background-color: #000;
   border: 2px solid #800080;
 }
 section#main-media-conatiner section#media-conatiner:before,
