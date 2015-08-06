@@ -305,7 +305,11 @@ section#main-media-conatiner section#media-conatiner #media-featured-work-contai
 section#main-media-conatiner section#media-conatiner #media-featured-work-container #media-featured-image-container {
   width: 100%;
 }
-section#main-media-conatiner section#media-conatiner #media-featured-work-container #media-featured-image-container img {
+section#main-media-conatiner section#media-conatiner #media-featured-work-container #media-featured-image-container #media-featured-img {
+  background-image: url("http://s27.postimg.org/459s9ma2a/featured_work_pacificrim.jpg");
+  padding-top: 36.09%;
+  background-size: cover;
+  background-position: center center;
   width: 100%;
 }
 section#main-media-conatiner section#media-conatiner #media-items-conatiner {
@@ -338,6 +342,41 @@ section#main-media-conatiner section#media-conatiner #media-items-conatiner .MI-
 }
 section#main-media-conatiner section#media-conatiner #media-items-conatiner .MI-container #MI-img-1 {
   background-image: url("http://s27.postimg.org/fcnoeuhrm/featured_work_sub_zerodarkthirty.jpg");
+  padding-top: 52.7%;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+}
+section#main-media-conatiner section#media-conatiner #media-items-conatiner .MI-container #MI-img-2 {
+  background-image: url("http://s27.postimg.org/gu42tag6q/featured_work_sub_downtownabby.jpgs");
+  padding-top: 52.7%;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+}
+section#main-media-conatiner section#media-conatiner #media-items-conatiner .MI-container #MI-img-3 {
+  background-image: url("http://s27.postimg.org/celno13si/featured_work_sub_romanticmovie.jpg");
+  padding-top: 52.7%;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+}
+section#main-media-conatiner section#media-conatiner #media-items-conatiner .MI-container #MI-img-4 {
+  background-image: url("http://s27.postimg.org/m491kl0fm/featured_work_sub_princecaspian.jpg");
+  padding-top: 52.7%;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+}
+section#main-media-conatiner section#media-conatiner #media-items-conatiner .MI-container #MI-img-5 {
+  background-image: url("http://s27.postimg.org/ahoxjgd4i/featured_work_sub_americanpie.jpg");
+  padding-top: 52.7%;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+}
+section#main-media-conatiner section#media-conatiner #media-items-conatiner .MI-container #MI-img-6 {
+  background-image: url("http://s27.postimg.org/debyjqiya/featured_work_sub_americanganster.jpg");
   padding-top: 52.7%;
   background-size: cover;
   background-position: center center;
